@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Jueves</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>La Oreja de Van Gogh</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Jueves</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Jueves.jpg" class="album" title="Jueves"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Jueves.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Si fuera más guapa y un poco más lista
+Si fuera especial si fuera de revista
+Tendría el valor de cruzar el vagón y preguntarte quién eres
+Te sientas enfrente y ni te imaginas
+Que llevo por ti mi falda más bonita
+Y al verte lanzar un bostezo al cristal se inundan mis pupilas
+
+Y de pronto me miras te miro y suspiras
+Yo cierro los ojos tú apartas la vista
+Apenas respiro me hago pequeñita
+Y me pongo a temblar
+
+Y así pasan los días de lunes a viernes
+Como las golondrinas del poema de bécqer
+Y de estación a estación en frente tú y yo va y viene el silencio
+Y de pronto me miras te miro y suspiras
+Yo cierro los ojos tú apartas la vista
+Apenas respiro me hago pequeñita
+Y me pongo a temblar
+
+Y entonces ocurre despiertan
+Mis labios pronuncian tu nombre tartamudeando
+Supongo que piensas qué chica más tonta y me quiero morir
+Pero el tiempo se para y te acercas diciendo
+Yo aún no te conozco y ya te echaba de menos
+Cada mañana rechazo el directo y elijo este tren
+
+Y ya estamos llegando mi vida
+Ha cambiado un día especial este 11 de marzo
+Me tomas la mano llegamos a un túnel que apaga la luz
+Te encuentro la cara gracias a mis manos
+Me vuelvo valiente y te beso en los labios
+Dices que me quieres y yo te regalo
+El último soplo de mi corazón
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

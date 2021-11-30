@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - ¿Qué hago yo?</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Ha Ash</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>¿Qué hago yo?</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Quehagoyo.jpg" class="album" title="¿Qué hago yo?"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Quehagoyo.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Entraste como un rayo de luz
+Como un aire encantador
+Liberaste con tu hechizo
+A mi recluso corazón
+
+Tu dulzura corre por mis venas
+Crei en tu intención
+No pensé que fuese un engaño
+Ni una mentira tu amor
+
+Me dices que te está llamando
+Te vas sin un adiós
+Se muy bien que harás en sus brazos
+Dime que hago yo
+
+¿Qué hago con mis labios si me ruegan tus besos?
+¿Qué hago con mis manos cuando suplican tu regreso?
+¿Qué hago con mis noches?
+¿Qué hago con mis días?
+¿Qué hago con tu esencia que se aferra a la mía?
+
+Dime que hago yo
+
+Hablamos solo cuando puedes
+Te abrazo al esconder
+Que no haría para tenerte
+A mi lado al amanecer
+
+Mis amigos dicen que te olvide
+Que antes de ti no era igual
+Antes de ti mi vida no tenia sentido
+Antes de ti no sabia amar
+
+¿Qué hago con mis labios si me ruegan tus besos?
+¿Qué hago con mis manos cuando suplican tu regreso?
+¿Qué hago con mis noches?
+¿Qué hago con mis días?
+¿Qué hago con tu esencia que se aferra a la mía?
+
+Dime que hago yo
+
+¿Qué hago con mis labios si me ruegan tus besos?
+¿Qué hago con mis manos cuando suplican tu regreso?
+¿Qué hago con mis noches?
+¿Qué hago con mis días?
+¿Qué hago con tu esencia que se aferra a la mía?
+
+Dime que hago yo
+
+¿Qué hago yo?
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

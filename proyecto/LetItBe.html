@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Let It Be</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Vázquez Sounds</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Let It Be</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/LetItBe.jpg" class="album" title="Let It Be"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/LetItBe.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+When I find myself in times of trouble
+Mother Mary comes to me
+Speaking words of wisdom:
+Let it be
+
+And in my hour of darkness
+She is standing right in front of me
+Speaking words of wisdom:
+Let it be
+
+Let it be, let it be
+Let it be, let it be
+Whisper words of wisdom:
+Let it be
+
+And when the broken hearted people
+Living in the world agree
+There will be an answer:
+Let it be
+
+For though they may be parted there is
+Still a chance that they will see
+There will be an answer:
+Let it be
+
+Let it be, let it be
+Let it be, let it be
+There will be an answer:
+Let it be
+
+Let it be, let it be
+Let it be, let it be
+Whisper words of wisdom:
+Let it be
+
+Let it be, let it be
+Let it be
+Yeah let it be
+Whisper words of wisdom:
+Let it be
+
+And when the night is cloudy
+There is still a light that shines on me
+Shine on until tomorrow
+Let it be
+
+I wake up to the sound of music
+Mother Mary comes to me
+Speaking words of wisdom
+Let it be
+
+Let it be, let it be
+Let it be, let it be
+There will be an answer:
+Let it be
+
+Let it be, let it be
+Let it be, let it be
+There will be an answer:
+Let it be
+
+Let it be, let it be
+Let it be, let it be
+Whisper words of wisdom:
+Let it be
+</pre></center></td>
+	<td><center>
+		<pre>
+Cuando me encuentro en tiempos de problemas
+La Madre María viene a mí
+Palabras que hablan de la sabiduría:
+Déjalo ser
+
+Y en mi hora de oscuridad
+Ella está parada justo en frente de mí
+Palabras que hablan de la sabiduría:
+Déjalo ser
+
+Dejalo ser dejalo ser
+Dejalo ser dejalo ser
+Susurra palabras de sabiduría:
+Déjalo ser
+
+Y cuando las personas con el corazón roto
+Viviendo en el mundo están de acuerdo
+Habrá una respuesta:
+Déjalo ser
+
+Porque aunque puedan separarse, hay
+Todavía hay una posibilidad de que vean
+Habrá una respuesta:
+Déjalo ser
+
+Dejalo ser dejalo ser
+Dejalo ser dejalo ser
+Habrá una respuesta:
+Déjalo ser
+
+Dejalo ser dejalo ser
+Dejalo ser dejalo ser
+Susurra palabras de sabiduría:
+Déjalo ser
+
+Dejalo ser dejalo ser
+Déjalo ser
+Sí, deja que sea
+Susurra palabras de sabiduría:
+Déjalo ser
+
+Y cuando la noche está nublada
+Todavía hay una luz que brilla sobre mí
+Sigue brillando hasta mañana
+Déjalo ser
+
+Me despierto con el sonido de la música
+La Madre María viene a mí
+Palabras que hablan de la sabiduría
+Déjalo ser
+
+Dejalo ser dejalo ser
+Dejalo ser dejalo ser
+Habrá una respuesta:
+Déjalo ser
+
+Dejalo ser dejalo ser
+Dejalo ser dejalo ser
+Habrá una respuesta:
+Déjalo ser
+
+Dejalo ser dejalo ser
+Dejalo ser dejalo ser
+Susurra palabras de sabiduría:
+Déjalo ser  
+</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

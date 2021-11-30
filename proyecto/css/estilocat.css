@@ -1,0 +1,60 @@
+*{
+	color:"white";
+}
+body{
+	background:url(../imagenes/music.jpg);
+	
+}
+
+.titulo1{
+	font-family:Kristen ITC,"Myriad Pro";
+
+}
+
+a {
+    font-size:18px;
+	text-decoration:none;
+	margin:0px 0px;
+    display:inline-block;
+	background:#E82A98;
+	color:#fff;
+	padding:10px 20px;
+	box-shadow:0px 5px 0px #F591CB;
+	
+}
+a:link{
+	  color:#F591CB;
+}
+a:hover {
+	    text-decoration:underline;
+		box-shadow:0px 5px 0px #E1DFDF;
+}
+a:active {
+	    box-shadow:none;
+}
+.text{
+	font-family:Comic Sans MS,"Myriad Pro";
+}
+.img1{
+	width: 230px;
+	height:;
+	float:left;
+	margin:10px;
+}
+.lette{
+	font-family:Comic Sans MS,"Myriad Pro";
+	font-size:25;
+}
+.img2{
+	width: 200px;
+	height:;
+	margin:10px;
+	border:8px solid white;
+	border-radius: 3%;
+	box-shadow: 10px 5px 0px #F0F0F0;
+}
+video{
+	width: 300px;
+    margin:15px;
+}
+

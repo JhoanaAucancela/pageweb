@@ -1,0 +1,45 @@
+body{
+    background:url(../imagenes/musi.jpg);
+	color:white;
+	
+}
+.titulo1{
+	font-family:Buxton Sketch,"Myriad Pro";
+}
+a {
+    font-size:18px;
+	text-decoration:none;
+	margin:0px 0px;
+    display:inline-block;
+	background:#E82A98;
+	color:#fff;
+	padding:10px 20px;
+	box-shadow:0px 5px 0px #F591CB;
+	
+}
+a:link{
+	  color:#F591CB;
+}
+a:hover {
+	    text-decoration:underline;
+		box-shadow:0px 5px 0px #FFFFFF;
+}
+a:active {
+	    box-shadow:none;
+}
+.img1{
+	width: 150px;
+	height:;
+	float:left;
+	margin:10px;
+	}
+.exi1{
+	font-size:14px;
+	text-decoration:none;
+	margin:0px 0px;
+    display:inline-block;
+	background:#E82A98;
+	color:#fff;
+	padding:10px 20px;
+	box-shadow:0px 5px 0px #F591CB;
+}

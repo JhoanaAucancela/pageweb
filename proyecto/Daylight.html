@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Daylight</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maroon 5</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Daylight</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Daylight.jpg" class="album" title="Daylight"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Daylight.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Here I am waiting, I'll have to leave soon,
+Why am I, holding on?
+We knew this day would come, we knew it all along,
+How did it, come so fast?
+This is our last night but it's late,
+And I'm trying not to sleep,
+Cause I know, when I wake, 
+I will have to slip away.
+
+And when the daylight comes I'll have to go,
+But tonight I'm gonna hold you so close,
+Cause in the daylight we'll be on our own,
+But tonight I need to hold you so close.
+
+Here I am staring at your perfection,
+In my arms, so beautiful,
+The sky is getting dark, 
+the stars are burning out,
+Somebody slow it down,
+
+This is way too hard, cause I know,
+When the sun comes up, 
+I will leave,
+This is my last glance that will soon be memory.
+
+And when the daylight comes I'll have to go,
+But tonight I'm gonna hold you so close,
+Cause in the daylight we'll be on our own,
+But tonight I need to hold you so close.
+
+I never wanted to stop because 
+I don't wanna stuck alone babe, 
+stuck alone babe,
+
+I was afraid of the dark but now 
+it's all that I want,
+ all that I want,
+All that I want.
+
+And when the daylight comes I'll have to go
+But tonight I'm gonna hold you so close
+Cause in the daylight we'll be on our own
+But tonight I need to hold you so close. (x2) 
+</pre></center></td>
+	<td><center>
+		<pre>
+Aquí estoy esperando, tengo que irme pronto,
+¿Por qué estoy, esperando?
+Sabíamos que este día llegaría,
+ lo supimos todo el tiempo,
+¿Cómo fué que, llegó tan rápido?
+Esta es nuestra última noche pero es tarde,
+Y estoy tratando de no dormir,
+Porque sé, que cuando despierte,
+ tendré que irme otra vez.
+
+Y cuando la luz del día llegue, 
+me tendré que ir,
+Pero esta noche te sostendré de cerca,
+Porque a la luz del d&iacute;a, 
+cada uno tomará su camino,
+Pero esta noche necesito sostenerte de cerca.
+
+Aquí estoy admirando tu perfección,
+Es mis brazos, tan hermosa,
+El cielo oscurece, 
+las estrellas comienzan a quemar,
+Que alguien detenga esto,
+Esto es tan difícil, porque sé,
+Que cuando el sol salga, me iré,
+Esta es mi última, 
+mirada que prontó se convertirá en un recuerdo.
+
+Y cuando la luz del día llegue, 
+me tendré que ir,
+Pero esta noche te sostendré de cerca,
+Porque a la luz del día, 
+cada uno tomará su camino,
+Pero esta noche necesito sostenerte de cerca.
+
+Nunca quise parar, 
+porque nunca quise quedarme solo, quedarme solo,
+Le temía a la oscuridad pero ahora es todo 
+lo que quiero, todo lo que quiero,
+Todo lo que quiero.
+
+Y cuando la luz del día llegue, me tendré que ir,
+Pero esta noche te sostendré de cerca,
+Porque a la luz del día, cada uno tomará su camino,
+Pero esta noche necesito sostenerte de cerca. (x2) 
+</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

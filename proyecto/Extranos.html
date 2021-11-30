@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Extraños</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Ha Ash</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Extraños</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Extranos.jpg" class="album" title="Extraños"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Extranos.mp3" type="audio/mp3"/>
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Fuimos dos extraños que nos conocimos en aquel café
+Sin esperarlo nos quedamos horas platicando
+Fuiste algo tan distinto, simple y tan genuino que me enamoré
+Te convertiste en mi amante y mejor amigo
+
+Que suerte la mia o eso yo creia
+Pero al mirar tus ojos de un momento al otro
+Ya no me veia
+
+Pasé del cielo al suelo, de una nube al infierno
+Del amor al vacio
+Como sentir que es eterno si aun estando en tus brazos
+Hoy me muero de frío
+
+Puede que suene cruel que al estar piel con piel
+Los minutos se me vuelven años
+Y quisiera saber como es que pudo ser
+Que después de haberte amado tanto
+Solo seamos, de nuevo extraños
+
+Somos dos extraños bajo el mismo techo y no queremos verlo
+Que aun que lo compartimos todo, no compartimos nada
+Diste lo mejor de ti, y lo mejor de mi te lo entregue tambien
+La vida a veces no perdona, y el tiempo da la espalda
+
+Que suerte la mia o eso yo creia
+Pero al mirar tus ojos de un momento al otro
+Ya no me veia
+
+Pasé del cielo al suelo, de una nube al infierno
+Del amor al vacio
+Como sentir que es eterno si aun estando en tus brazos
+Hoy me muero de frío
+
+Puede que suene cruel que al estar piel con piel
+Los minutos se me vuelven años
+Y quisiera saber como es que pudo ser
+Que después de haberte amado tanto
+Solo seamos, de nuevo extraños
+
+Pasé del cielo al suelo, de una nube al infierno
+Del amor al vacio
+Como sentir que es eterno si aun estando en tus brazos
+Hoy me muero de frío
+
+Puede que suene cruel que al estar piel con piel
+Los minutos se me vuelven años
+Y quisiera saber como es que pudo ser
+Que después de haberte amado tanto
+Solo seamos, de nuevo extraños
+
+Somos dos extraños que nos conocimos en aquel café
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

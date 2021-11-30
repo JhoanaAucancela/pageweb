@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Musica Pop - Inicio</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+<link rel="stylesheet" type="text/css" href="css/estilo2.css">
+
+</head>
+<body>
+<font color="white" size=14 class="titulo1"><center>Música Pop</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header>
+<br/><br/>
+<center>
+   <img src="imagenes/55441.gif" class="img0">
+   <img src="imagenes/cantantes-pop.jpg" class="img1"></center>
+<br><br>
+   <h2>Origen</h2><p>
+      <img src="imagenes/auriculares.jpg" class="img2">
+   El término “pop”, derivado del inglés “popular music”, surgió ya en 1926 en Estados Unidos como concepto opuesto a los géneros musicales de culto, para describir una canción con mucha popularidad y gancho para un gran público, la “pop song”. Poco a poco, el pop se convirtió en la denominación global para estilos clásicos como el country, el blues, el folk e incluso el jazz, por entonces considerados populares entre gente con poca cultura musical. Puede que esta definición sirva aun hoy en día de baza a los enemigos del pop, pero, a lo largo de las décadas, los grandes representantes de la música popular han demostrado que el “pop” no es una etiqueta descalificativa sino calificativa. A partir de los 1950, en EE.UU. se llegó a usar de forma sinónima de “rock and roll”, mientras que al otro lado del charco, en el Reino Unido, la música pop iba absorbiendo la música beat. Curiosamente, desde finales de los 1960, la música pop se convirtió cada vez más en el antagonista de la música rock y, como tal, se ha ido extendiendo y globalizando a un ritmo frenético, sobre todo entre el público más joven.
+   A ello ha contribuido la organización de conciertos y festivales, que acercan los artistas a un gran número de seguidores, en su mayoría jóvenes. Como precursor de los festivales grandes de pop se considera el Festival Internacional de Música Pop de Monterey (California), celebrado del 16 al 18 de junio de 1967, seguido por el mítico festival de Woodstock (Nueva York), del 15 al 18 de agosto de 1969.
+</p>
+<h2>Características</h2>
+<img src="imagenes/tumblr.gif" class="img3"><br>
+<p>Generalmente, la música pop se caracteriza por ritmos y melodías ligeros, composiciones sencillas con una estructura repetitiva y estribillos simples y pegadizos. El parecido más que razonable entre muchas canciones de pop queda patente en proyectos como los mash-ups de DJ Earworm, que es capaz de juntar los grandes éxitos de cada año como si se tratara de un solo tema. La duración media de una canción de pop es de unos 3-4 minutos. Las letras, a menudo, versan sobre temas amorosos, relaciones personales, ideas románticas y sobre cómo pasarse lo bien. Con estas premisas, tiene un grupo objetivo bien definido: toda la humanidad.</p><br><br><br>
+<script>
+function cambiarTrack(track) {
+   var path =  track.getAttribute("path")
+   viejo_audio = document.getElementById("reproductor")
+   audio_padre = viejo_audio.parentNode
+   audio_padre.removeChild(viejo_audio)
+   nuevo_audio = document.createElement("audio")
+   nuevo_audio.setAttribute("id","reproductor")
+   nuevo_audio.setAttribute("controls", "controls")
+  nuevo_audio.setAttribute("autoplay", "autoplay")
+   source = document.createElement("source")
+   source.setAttribute("src", path)
+   source.setAttribute("type", "audio/mpeg")
+   source.setAttribute("id", "reproductorSource")
+   nuevo_audio.appendChild(source)
+   audio_padre.appendChild(nuevo_audio)}
+function cargarReproductor() {
+         var select = document.getElementById("selectTrack")
+         var path = select.options[0].getAttribute("path")
+   nuevo_audio = document.createElement("audio")
+   nuevo_audio.setAttribute("id","reproductor")
+   nuevo_audio.setAttribute("controls", "controls")       
+   source = document.createElement("source")
+   source.setAttribute("src", path)
+   source.setAttribute("type", "audio/mpeg")
+   source.setAttribute("id", "reproductorSource")
+   nuevo_audio.appendChild(source)
+   padre = document.getElementById("reproductorBox")
+   padre.appendChild(nuevo_audio)
+}
+</script>
+<div class="reproductor"><center>
+<div id="reproductorBox"></div>
+<select id = "selectTrack" multiple onchange="cambiarTrack(this.options[this.selectedIndex]);">
+<option path="music/Attention.mp3"><b>Attention - Charlie Puth</b></option>
+<option path="music/Alive.mp3">Alive - Sia</option>
+<option path="music/Rockabye.mp3">Rockabye -  Clean Bandit ft  Sean Paul, Anne-Marie</option>
+<option path="music/Wolves.mp3">Wolves - Selena Gomez ft Marshmello</option>
+<option path="music/Symphony.mp3">Symphony -  Clean Bandit ft  Zara Larsson</option>
+<option path="music/Fetish.mp3">Fetish - Selena Gomez ft. Gucci Mane</option>
+<option path="music/BigGirlsCry.mp3">Big Girls Cry - Sia</option>
+<option path="music/IDon_t WannaLiveForever.mp3">I Don't Wanna Live Forever - ZAYN ft Taylor Swift</option>
+<option path="music/WeDon_tTalkAnymore.mp3">We Don't Talk Anymore - Charlie Puth ft Selena Gomez</option>
+<option path="music/NoPromises.mp3">No Promises - Cheat Codes ft. Demi Lovato</option>
+<option path="music/IMissYou.mp3">I Miss You - Clean Bandit ft. Julia Michaels</option>
+<option path="music/CheapThrills.mp3">Cheap Thrills - Sia</option>
+<option path="music/Chandelier.mp3">Chandelier - Sia</option>  
+</select>
+<script>cargarReproductor();</script>
+</center></div>
+<p>
+<ul>
+<li>Melodías y letras pegadizas. El éxito de una melodía pop radica en su facilidad para ser recordada y disfrutada por las personas, en base a ritmos y líricas que pueden ser simples, pero pegajosos. En este detalle lo cierto es que una canción perteneciente a este estilo, suele estar artísticamente menos trabajada que otras.</li>
+
+<li>Normalmente, las canciones también se elaboran de acuerdo a la estructura estrofa-estribillo. Esto significa que entre cada estrofa se encuentra un coro, que es el que mayormente identifica a las composiciones y en la recta final, surge un puente musical o un estribillo diferente al del comienzo y el medio.</li>
+
+<li>La duración también es un punto importante dentro de cada canción. Estas no suelen rebasar los cinco minutos de duración, puesto que es preferible que sean cortas y sencillas de asimilar por los oyentes.</li>
+
+<li>El pop habla con regularidad de temáticas sentimentales, como el acto de enamorarse o sufrir una desilusión o traición romántica. También se refiere a hechos cotidianos que pueden abarcar fenómenos sociales o experiencias.</li>
+
+<li>Así mismo, se le da prioridad a los efectos obtenidos gracias a la tecnología y los medios electrónicos, por sobre la voz de los artistas. La producción para el resultado final es sumamente cuidadosa y supervisada para incluir arreglos, que pueden sonar de manera artificial.</li>
+</ul></p>
+<br>
+<center><div class="all">
+<div class="content-all">
+    <div class="content-carrousel">
+        <figure><img src="img/MI0003000807.jpg"></figure>
+        <figure><img src="imagenes/MCGR1034.jpg"></figure>
+        <figure><img src="imagenes/164a-8b.jpg"></figure>
+        <figure><img src="imagenes/bigstock_woma.jpg"></figure>
+        <figure><img src="imagenes/breve_historia_del_pop_10202.jpg"></figure>
+        <figure><img src="imagenes/breve_historia_del_pop_10201.jpg"></figure>
+        <figure><img src="imagenes/breve_historia_del_pop_10203.jpg"></figure>
+        <figure><img src="imagenes/3845937_249px.jpg"></figure>
+        <figure><img src="imagenes/9.png"></figure>
+        <figure><img src="imagenes/81ABvmXoz5L._SY355_.jpg"></figure>
+    </div>
+</div>
+</div></center>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<h2>Fenómeno social</h2>
+<p>El pop, a menudo, se asocia con conceptos como “mainstream”, “música comercial”, “fenómeno fan”, “boy/girl groups”, “merchandising” y “consumo masivo”. Desde hace décadas, este maridaje es una lucrativa receta de éxito, como demuestran los grupos y artistas que, sin tocar una sola nota, eran y son capaces de volver locas a millones de seguidores. La música pop cuenta sobre todo con un público juvenil, dispuesto a hacer, comprar y escuchar lo que sea de sus ídolos. Las estrellas de pop no se conforman con hacer música sino que, gracias a los vídeos musicales, los conciertos y apariencias de todo tipo en TV, se convierten en los abanderados de la llamada “cultura pop” y un ejemplo a seguir en cuestiones tan dispares como su forma de vestir, su comportamiento, sus relaciones amorosas, su consumo de drogas, etc. Gracias a este carácter ejemplar –para bien y para mal–, los popstars son un gancho recurrente para la publicidad, que los aprovecha para aumentar el consumo de cualquier producto entre los fans del artista en cuestión, público generalmente jóvenes y/o influenciables.</p>
+</body>
+</html>
+
+
+
+

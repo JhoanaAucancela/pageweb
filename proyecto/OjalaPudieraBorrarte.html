@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Ojala Pudiera Borrarte</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maná</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Ojala Pudiera Borrarte</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/OjalaPudieraBorrarte.jpg" class="album" title="Ojala Pudiera Borrarte"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/OjalaPudieraBorrarte.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Ojala y te me borraras de mis sueños
+Y poder desdibujarte
+Ojala y pudiera ahogarte en un charco
+Lleno de rosas y amor
+Ojala y se me olvidara hasta tu nombre
+Ahogarlo dentro del mar
+Ojala y que tu sonrisa de verano
+Se pudiera ya borrar
+
+(Coro)
+Vuelve corazón
+Vuelve a mi lado
+Vuelve corazón
+No vuelve no vuelve no vuelve no
+
+Ojala y te me borraras para siempre de mi vida
+Para no volverte a ver
+Y Ojala y te me borraras por las noches en el día
+Para no volverte a ver
+Y Ojala y te me esfumaras de mis sueños, vida mía
+Para no volverte a ver
+No, ni en sueños
+
+Como puedo yo borrar tus besos vida
+Están tatuados en mi piel
+Quiero de una vez por todas, ya largarte
+Y borrarte de mi ser
+Ojala y la lluvia me ahogue entre sus brazos
+Para no pensar en ti
+O que pase un milagro o pase algo,
+Que me lleve hasta ti
+
+(Coro)
+Vuelve corazón
+Vuelve a mi lado
+Pero no, no, no, no vuelve corazón
+No vuelve no vuelve no vuelve no
+
+Ojala y te me borraras para siempre de mi vida para no volverte a ver
+Y ojala y te me borraras por las noches en el dia para no volverte a ver
+Y ojala y te me esfumaras de mis sueños vida mía, y que no me lluevas más
+Y ojala y que la lluvia me ahogue entre sus brazos,
+Para no volverte a ver, no
+Ni en sueños
+Pa' que pares de llover
+
+Sueños, sueños, oh oh sueños
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Yo Quisiera</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Reik</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Yo Quisiera</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/YoQuisiera.jpg" class="album" title="Yo Quisiera"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/YoQuisiera.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Soy tu mejor amigo
+Tu pañuelo de lágrimas
+De amores perdidos
+Te recargas en mi hombro
+Tu llanto no cesa
+Yo solo te acaricio
+
+Y me dices porque la vida es tan cruel
+Con tus sentimientos
+Yo solo te abrazo y te consuelo
+Me pides mil consejos para protegerte
+De tu próximo encuentro
+Sabes que te cuido
+
+Lo que no sabes es que yo quisiera ser
+Ese por quien tú te desvelas y te desesperas
+Yo quisiera ser tu llanto ese que viene de tus sentimientos
+Yo quisiera ser ese por quien tú despertaras ilusionada
+Yo quisiera que vivieras de mi siempre enamorada
+
+Tú te me quedas viendo
+Y me preguntas
+Si algo me está pasando
+Y yo no se que hacer, si tú supieras
+Que me estoy muriendo
+
+Quisiera decirte lo que yo siento
+Pero tengo miedo de que me rechaces
+Y que solo en mi mente vivas para siempre
+Por eso yo quisiera ser por quien tú te desvelas y te desesperas
+Yo quisiera ser tu llanto ese que viene de tus sentimientos
+
+Yo quisiera ser ese por quien tú despertaras ilusionada
+Yo quisiera que vivieras de mi siempre enamorada
+Yo quisiera ser tu llanto, tu vida
+Yo quisiera ser tu llanto, tu vida
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

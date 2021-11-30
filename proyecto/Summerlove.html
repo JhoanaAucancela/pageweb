@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Summer love</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>One Direction</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Summer love</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Summerlove.jpg" class="album" title="Summer love"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Summerlove.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Zayn:
+Can't believe your packin your bags
+Tryin so hard not to cry
+Had the best time and now its the worst time
+But we have to say goodbye
+
+Harry:
+Don't promise that you're gonna write
+Though promise that you'll call
+Just promise that you won't forget we had it all
+
+Niall:
+Cause you were mine for the Summer
+Now we know its nearly over
+Feels like snow in September
+But I always will remember
+You were my Summer love
+You always will be my Summer love
+
+Louis:
+Wish that we could be alone now
+If we could find some place to hide
+Make the last time just like the first time
+Push a button and rewind
+
+Liam:
+Don't say the word that's on your lips
+Don't look at me that way
+Just promise you'll remember
+When the tide is grey
+
+Niall:
+Cause you were mine for the Summer
+Now we know its nearly over
+Feels like snow in September
+But I always will remember
+You were my Summer love
+You always will be my Summer love
+
+Zayn:
+So please don't make this any harder
+We can't take this any farther
+And I know there's nothin that I wanna change, change
+
+All:
+Cause you were mine for the Summer
+Now we know its nearly over
+Feels like snow in September
+But I always will remember
+You were my Summer love
+You always will be my Summer love..
+       </pre></center></td>
+	<td><center>
+		<pre>
+Zayn:
+No puedo creer que que estas empacando tus maletas
+Tratando de no llorar
+Tuvimos el mejor momento y ahora es el peor
+Pero tenemos que decir adiós
+
+Harry:
+No prometas que me vas a escribir
+A pesar de la promesa de que me llamaras
+Sólo promete que no vas a olvidar todo lo que teníamos
+
+Niall:
+Porque tú eras mía en el verano
+Ahora sabemos que esta a punto de terminar
+Se siente como nieve en septiembre
+Pero siempre lo recordaré
+Tú eras mi amor de verano
+Siempre serás mi amor de verano..
+
+Louis:
+Desearía que pudiéramos estar solos ahora
+Si pudiéramos encontrar algún lugar para escondernos
+Hacer que la última vez sea igual que la primera vez
+Pulsar un botón y rebobinar
+
+Liam:
+No digas la palabra que está en tus labios
+No me mires de esa manera
+Sólo prometeme que me recordaras
+Cuando la marea sea de color gris
+
+Niall:
+Porque tú eras mía en el verano
+Ahora sabemos que esta a punto de terminar
+Se siente como nieve en septiembre
+Pero siempre lo recordaré
+Tú eras mi amor de verano
+Siempre serás mi amor de verano..
+
+Zayn:
+Así que por favor no haga esto más dificil
+No podemos llevar esto más lejos
+Y sé que no hay nada que yo quiera cambiar, cambiar
+
+Todos:
+Porque tú eras mía en el verano
+Ahora sabemos que esta a punto de terminar
+Se siente como nieve en septiembre
+Pero siempre lo recordaré
+Tú eras mi amor de verano
+Siempre serás mi amor de verano..
+		</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

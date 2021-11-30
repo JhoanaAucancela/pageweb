@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Que Vida La Mía</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Reik</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Exitosm.html" class="boton">Exitos Músicales</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Que Vida La Mía</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/QueVidaLaMia.jpg" class="album" title="Que Vida La Mía"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/QueVidaLaMia.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Me despierto en la mañana, para verte pasar
+Y tenerte en mi mente por el resto del dia
+¡Que vida la mia!
+Aún no sé tu nombre y ya eres dueña de mi
+Y me paso todo el dia imaginando tu risa
+¡Que vida la mia!
+No sé que hacer, para ser el aire que va a tu alrededor
+Y acaricia tu piel
+
+Sólo quiero conversar, sólo quiero conocerte
+Dame un poco de tu tiempo
+Para convencerte, yo sólo quiero ser tu amigo
+Y me muero por salir contigo
+Dame una señal, sólo dame una mirada
+Si estas a mi lado, a mi no me importa nada
+Ya quiero estar entre tus brazos y me muero por
+Probar tus labios, rojos, llenos de ti
+Sólo dime que si
+
+Me desvelo en las noches para pensar en ti
+Y si duermo sólo sueño con tener tus carícias
+Que vida la mia
+Tengo todo este amor y sólo es para ti
+Y yo sólo me conformo con mirarte otro dia
+Que vida la mia
+No sé que hacer para ser el aire que va a tu alrededor
+Que acaricia tu piel
+
+Sólo quiero conversar, sólo quiero conocerte
+Dame un poco de tu tiempo para convencerte
+Yo sólo quiero ser tu amigo, y me muero por salir contigo
+Dame una señal, sólo dame una mirada
+Si estas a mi lado, a mi no me importa nada
+Ya quiero estar entre tus brazos, y me muero por
+Probar tus labios, rojos, llenos de ti
+Sólo dime que si
+
+Sólo quiero conversar, sólo quiero conocerte
+Dame un poco de tu tiempo
+Para convencerte, yo sólo quiero ser tu amigo
+Y me muero por salir contigo
+Dame una señal, sólo dame una mirada
+Si estas a mi lado, a mi no me importa nada
+Ya quiero estar entre tus brazos y me muero por
+Probar tus labios, rojos, llenos de ti
+Sólo dime que si
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

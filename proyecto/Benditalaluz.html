@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Bendita la luz</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maná</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Bendita la luz</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Benditalaluz.jpg" class="album" title="Bendita la luz"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Benditalaluz.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Bendito el lugar y el motivo de estar ahí
+Bendita la coincidencia
+Bendito el reloj que nos puso puntual ahí
+Bendita sea tu presencia
+Bendito Dios por encontrarnos en el camino
+Y de quitarme esta soledad de mi destino
+
+Bendita la luz
+Bendita la luz de tu mirada
+Bendita la luz
+Bendita la luz de tu mirada desde el alma
+
+Benditos ojos que me esquivaban
+simulaban desdén que me ignoraban
+Y de repente sostienes la mirada(tarantintiriran)
+Bendito Dios por encontranos en el camino
+Y de quitarme esta soledad de mi destino
+
+Bendita la luz
+Bendita la luz de tu mirada
+Bendita la luz
+Bendita la luz de tu mirada
+
+Gloria divina de esta suerte, del buen tino
+Y de encontrarte justo ahi en medio del camino
+Gloria al cielo de encontarte ahora, llevarte mi soledad
+y coincidir en mi destino, en el mismo destino
+
+Bendita la luz
+Bendita la luz de tu mirada
+Bendita la luz
+Bendita la luz de tu mirada
+
+Bendita mirada oh oh
+Bendita mirada desde el alma
+Tu mirada oh oh
+Bendita bendita bendita mirada
+Bendita tu alma y bendita tu luz
+Tu mirada oh oh
+Te digo es tan bendita tu luz, amor, amor
+Tu mirada oh oh
+
+Bendito el reloj y bendito el lugar
+Benditos tus besos cerquita del mar
+Tu mirada oh oh
+Amor, amor, qué bendita tu mirada
+Tu mirada amor
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

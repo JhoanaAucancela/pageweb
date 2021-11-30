@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Middle Of The Night</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>The Vamps</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Middle Of The Night</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/MiddleOfTheNight.jpg" class="album" title="Middle Of The Night"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/MiddleOfTheNight.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+I keep coming back to that moment
+Where it all fell apart
+So I try and drink my emotions
+'Til I can't feel my heart
+
+And I don't understand
+How you slipped through my hands
+And I do all I can
+To get you out of my head
+
+So when I call you in the middle of the night
+And I'm choking on the words 'cause I miss you
+Baby, don't tell me I'm out of time
+I got so much of my loving to give you
+
+In the middle of the night
+In the middle of the night
+I need you
+In the middle of the night
+
+I've got no good explanation
+For what I put you through
+Managing my expectations
+Is what I never do
+
+Yeah and I don't understand
+How you slipped through my hands
+And I'm trying all I can
+To forget you again
+
+So when I call you in the middle of the night
+And I'm choking on the words 'cause I miss you
+Baby, don't tell me I'm out of time
+I got so much of my loving to give you
+
+In the middle of the night
+In the middle of the night
+I need you
+In the middle of the night
+
+So when I call you in the middle of the night
+And I'm choking on the words 'cause I miss you
+Baby, don't tell me I'm out of time
+I got so much of my loving to give you
+
+In the middle of the night
+In the middle of the night
+I need you
+In the middle of the night
+In the middle of the night
+I need you
+</pre></center></td>
+	<td><center>
+		<pre>
+Sigo volviendo a ese momento 
+Donde todo se desmoronó 
+Así que trato de beber mis emociones 
+Hasta que no sienta mi corazón 
+
+Y no entiendo 
+Cómo te deslizaste a través de mis manos 
+Y hago todo lo que puedo 
+Para sacarte de mi cabeza 
+
+Así que cuando te llamo en medio de la noche 
+Y me estoy ahogando con las palabras porque te extraño, 
+Bebé, no me digas que estoy fuera de tiempo 
+Tengo tanto de mi amor para darte 
+
+En medio de la noche 
+En medio de la noche 
+Te necesito 
+En medio de la noche 
+
+No tengo una buena explicación 
+Para lo que te hice pasar
+Gestionar mis expectativas 
+Es lo que nunca hago 
+
+Si, y no entiendo 
+Cómo te deslizaste a través de mis manos 
+Y estoy intentando todo lo que puedo 
+Para olvidarte de nuevo 
+
+Así que cuando te llamo en medio de la noche 
+Y me estoy ahogando con las palabras porque te extraño,
+Bebé, no me digas que estoy fuera de tiempo 
+Tengo tanto de mi amor para darte 
+
+En medio de la noche 
+En medio de la noche 
+Te necesito 
+En medio de la noche 
+
+Así que cuando te llamo en medio de la noche 
+Y me estoy ahogando con las palabras porque te extraño, 
+Bebé, no me digas que estoy fuera de tiempo 
+Tengo tanto de mi amor para darte 
+
+En medio de la noche 
+En medio de la noche 
+Te necesito 
+En medio de la noche 
+En medio de la noche 
+Te necesito  
+</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

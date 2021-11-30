@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Na Na Na</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+       }
+    }
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>One Direction</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Na Na Na</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/NaNaNa.jpg" class="album" title="Na Na Na"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/NaNaNa.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+We've got a bit of love/hate
+You take me to the edge then you hit the breaks
+I say it's over one day, 
+but then I'm calling 
+back begging you to stay
+We make up then we break up all the time
+I'll say that I hate her song, then you'll go 
+request it the whole night long
+Some people say it's so wrong but even when we
+ fight, it'll turn me on
+We make up then we break up all the time
+
+[Chorus]
+We're like na na na
+Then we're like "yeah yeah yeah"
+Always like na na na
+Then we're like "yeah yeah yeah"
+
+[Zayn]
+No we can't make up our minds cause when
+ we think we've got it right
+We go na na na na
+
+[Liam]
+You wanna party too late
+But when I do the same all you do is complain
+You know that it drives me insane
+But when I get with you girl you make it okay
+We make up then we break up all the time
+
+[Chorus]
+We're like na na na
+Then we're like "yeah yeah yeah"
+Always like na na na
+Then we're like "yeah yeah yeah"
+
+[Zayn]
+No we can't make up our minds cause when
+ we think we've got it right
+We go na na na na  
+       </pre></center></td>
+	<td><center>
+		<pre>
+Tenemos un poco de amor / odio
+¿Me llevas a la limite, pero luego se rompe el golpe
+Yo digo que es más de un día, 
+pero despues te llamo pidiendote que te quedes
+Volvemos y rompemos, todo el tiempo
+Voy a decir que no me gusta su canción, 
+entonces vas a pedirla la noche entera
+Algunas personas dicen que esta tan mal, 
+pero incluso cuando peleamos, eso me enciende
+Volvemos y rompemos, todo el tiempo
+
+[Coro]
+Somos como na na na
+Despues somos como "yeah yeah yeah"
+Siempre me gusta na na na
+Despues somos como "yeah yeah yeah"
+
+[Zayn]
+No, no podemos decidirnos porque cuando
+ pensamos que tenemos las cosas bien
+Vamos na na na na
+
+[Liam]
+Queres estar de fiesta hasta tarde
+Pero cuando yo hago lo mismo todo
+ lo que haces es quejarte
+Vos sabe que eso me vuelve loco
+Pero cuando estoy con vos, nena, lo haces bien
+Volvemos y rompemos, todo el tiempo
+
+[Coro]
+Somos como na na na
+Despues somos como "yeah yeah yeah"
+Siempre me gusta na na na
+Despues somos como "yeah yeah yeah"
+
+[Zayn]
+No, no podemos decidirnos porque cuando
+pensamos que tenemos las cosas bien
+Vamos na na na na  
+		</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

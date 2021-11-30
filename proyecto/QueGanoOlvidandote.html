@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Qué Gano Olvidándote</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Reik</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Qué Gano Olvidándote</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/QueGanoOlvidandote.jpg" class="album" title="Qué Gano Olvidándote"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/QueGanoOlvidandote.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Lo intenté y fallé 
+No está en mí olvidarte 
+Te siento aquí, abrazándome 
+Respirándome, temblando sobre mí 
+Es así 
+Aunque te fuiste, no me suelto de ti 
+
+Yo quiero que sigas en mi vida 
+Yo quiero que vivas en mi piel 
+Si amarte es tan fuerte todavía 
+¿Qué gano olvidándote? 
+No quiero cerrar estas heridas 
+No quiero curarme del ayer 
+Prefiero llorarte de alegría 
+Soñando que piensas en volver 
+
+Mírame 
+No cambié, soy el mismo ciego 
+Estoy en paz, te di mi amor y más 
+Aunque digan que yo me quedé atrás 
+Hay después 
+Porqué algún día serás mía otra vez 
+Yo quiero que sigas en mi vida 
+Yo quiero que vivas en mi piel 
+Si amarte es tan fuerte todavía 
+¿Qué gano olvidándote? 
+No quiero cerrar estas heridas 
+No quiero curarme del ayer 
+Prefiero llorarte de alegría 
+Soñando que piensas en volver 
+
+¿Qué gano olvidándote? 
+
+Yo quiero que sigas en mi vida 
+Yo quiero que vivas en mi piel 
+Si amarte es tan fuerte todavía 
+¿Qué gano olvidándote?
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

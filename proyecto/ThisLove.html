@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - This Love</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maroon 5</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>This Love</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/ThisLove.jpg" class="album" title="This Love"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/ThisLove.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+I was so high I did not recognize
+The fire burning in her eyes
+The chaos that controlled my mind
+Whispered goodbye and she got on a plane
+Never to return again
+But always in my heart
+
+This love has taken its toll on me
+She said Goodbye too many times before
+And her heart is breaking in front of me
+I have no choice 
+cause I won't say goodbye anymore
+
+I tried my best to feed her appetite
+Keep her coming every night
+So hard to keep her satisfied
+Kept playing love 
+like it was just a game
+Pretending to feel the same
+Then turn around and leave again
+
+This love has taken its toll on me
+She said Goodbye too many times before
+And her heart is breaking in front of me
+I have no choice 
+cause I won't say goodbye anymore
+
+I'll fix these broken things
+Repair your broken wings
+And make sure everything's alright
+My pressure on her hips
+Sinking my fingertips
+Into every inch of you
+Cause I know 
+that's what you want me to do. 
+</pre></center></td>
+	<td><center>
+		<pre>
+Estaba tan drogado que no reconocí
+El fuego ardiendo en sus ojos
+El caos que controlaba mi mente
+Susurró un adiós y se subió a un avión
+Para nunca regresar otra vez
+Pero siempre en mi corazón
+
+Este amor ha tenido un grave efecto en mí
+Ella me ha dicho adiós antes, demasiadas veces
+Y su corazón se está rompiendo frente a mí
+No tengo opción 
+porque ya no diré adiós
+
+Hice mi mayor esfuerzo por saciar su apetito
+Por mantenerla viniendo cada noche
+Era tan difícil mantenerla satisfecha
+Seguir jugando al amor 
+como si fuera solo un juego
+Fingiendo sentir lo mismo
+Entonces darse la vuelta e irse otra vez
+
+Este amor ha tenido un grave efecto en mí
+Ella me ha dicho adiós antes, demasiadas veces
+Y su corazón se está rompiendo frente a mí
+No tengo opción 
+porque ya no diré adiós
+
+Arreglaré las cosas rotas
+Repararé tus alas rotas
+Y me aseguraré de que todo esté bien
+Mi presión en sus caderas
+Hundiendo las yemas de mis dedos
+En cada pulgada de ti
+Porque yo sé 
+que eso es lo que quieres que haga.
+</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

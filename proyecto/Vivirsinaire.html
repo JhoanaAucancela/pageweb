@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Vivir sin aire</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maná</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Vivir sin aire</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Vivirsinaire.jpg" class="album" title="Vivir sin aire"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Vivirsinaire.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Cómo quisiera poder vivir sin aire
+Cómo quisiera poder vivir sin agua
+Me encantaría quererte un poco menos
+Cómo quisiera poder vivir sin ti
+
+Pero no puedo, siento que muero
+Me estoy ahogando sin tu amor
+
+Cómo quisiera poder vivir sin aire
+Cómo quisiera calmar mi aflicción
+Cómo quisiera poder vivir sin agua
+Me encantaría robar tu corazón
+
+¿Cómo pudiera un pez nadar sin agua?
+¿Cómo pudiera un ave volar sin alas?
+¿Cómo pudiera la flor crecer sin tierra?
+Cómo quisiera poder vivir sin ti
+
+Pero no puedo, siento que muero
+Me estoy ahogando sin tu amor
+
+Cómo quisiera poder vivir sin aire
+Cómo quisiera calmar mi aflicción
+Cómo quisiera poder vivir sin agua
+Me encantaría robar tu corazón
+
+Cómo quisiera lanzarte al olvido
+Cómo quisiera guardarte en un cajón
+Cómo quisiera borrarte de un soplido
+Me encantaría matar esta canción
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Te llore Un R&iacute;o</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maná</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Te llore Un R&iacute;o</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/TelloreUnRio.jpg" class="album" title="Te llore Un R&iacute;o"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/TelloreUnRio.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Yo aquí llorandote un río
+Mandándome al olvido
+Que cosa mas injusta amor
+Fuiste matando mis pasiones
+Tachando mis canciones
+Me tenías pisoteado
+Estaba desahuciado
+No es justo no bebé
+Oh oh veo
+
+Pero este mundo ya giró
+Y ahora te tocó perder
+Oh oh veo
+
+Bebé te lloré todo un río (bebé, bebé)
+Bebé, te lloré a reventar (bebé, bebé)
+Oh no no no, no tienes corazón, oh oh
+No te vuelvo a amar
+Te lloré todo un río
+Ahora llorame un mar
+
+Ya no me busques ya es muy tarde
+Ya tengo otro amor
+Una chula sirena
+Que nada en mi piel
+Yo te perdono no hay rencores
+Solo los dolores
+Mi alma esta arañada
+Lloré el suelo mojado
+No es justo no bebé
+Oh oh veo
+
+Pero este mundo ya giró
+Y ahora te tocó perder
+Oh oh veo
+
+Bebé, te lloré todo un río (bebé, bebé)
+Bebé, telloré a reventar (bebé, bebé)
+Oh no no no, no tienes corazón, oh oh
+No te vuelvo a amar
+Te lloré todo un río
+Ahora llorame un mar
+
+Verdad que un río te lloré
+Verdad que no te vuelvo a amar
+Oh no no no, no te vuelvo a amar
+Verdad que un río te lloré
+Verdad que no te vuelvo a amar
+Oh no no no, pierde tiempo amar
+Verdad que un río te lloré
+Verdad que no te vuelvo a amar
+Llorame, llorame, llorame.
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

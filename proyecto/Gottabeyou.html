@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Gotta be you</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>One Direction</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Gotta be you</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Gottabeyou.jpg" class="album" title="Gotta be you"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Gottabeyou.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Girl I see it in your eyes
+You're disappointed
+Because I'm the foolish one 
+That you anointed with your heart
+I tore it apart
+And girl what a mess I made upon your innocence
+And no woman in the world deserves this
+But here I am asking you for one more chance
+Can we fall, one more time?
+Stop the tape and rewind
+Oh and if you walk away I know I'll fade
+Because there is nobody else
+It's gotta be you, only you
+It's got to be you, only you
+Now girl I hear it in your voice and how it trembles
+When you speak to me I don't resemble who I was
+You've almost had enough
+And your actions speak louder than words
+And you're about to break from all you've heard
+But don't be scared,
+ I ain't going no where
+I'll be here, by your side
+No more fears, no more crying
+But if you walk away I know I'll fade
+Because there is nobody else
+It's gotta be you, only you
+It's got to be you, only you
+Oh girl, we can one more, 
+one more time, one more,
+One more, we can one more, 
+one more time
+I'll make it better
+One more, one more, can we try?
+One more, one more
+Can we try one more time to make it all better?
+Because it's gotta be you
+It's gotta be you
+Only you, only you
+It's gotta be you, only you
+It's got to be you, only you
+       </pre></center></td>
+	<td><center>
+		<pre>	
+Chica, lo veo en tus ojos, 
+estás decepcionada,
+porque yo soy el tonto
+al que designaste con tu corazón (anoint).
+Yo lo hice pedazos,
+y chica qué desastre hice con tu inocencia,
+y no hay mujer en el mundo que merezca esto,
+pero aquí estoy pidiendo una oportunidad más.
+Podemos caer, ¿una vez más?
+Parar la cinta y rebobinar,
+oh, y si te marchas sé que me desvaneceré,
+porque no hay nadie más.
+Tienes que ser tú, solo tú,
+tienes que ser tú, solo tú.
+Ahora chica te oigo decirlo y cómo tiembla
+cuando me hablas no me parezco al que era,
+casi has tenido demasiado,
+y tus acciones hablan más alto que tus palabras,
+y tú estás a punto de romper con todo lo que has oído,
+pero no estés asustada, no voy a ninguna parte.
+Estaré aquí, a tu lado,
+no más miedos, no más lloros,
+pero si te vas, sé que me desvaneceré,
+porque no hay nadie más.
+Tienes que ser tú, solo tú,
+tienes que ser tú, solo tú.
+Oh chica, podemos, una más, una vez más, una más,
+una más, podemos una más, una vez más,
+lo haré mejor,
+una más, una más, ¿podemos intentarlo?
+una más, una más.
+¿Podemos intentarlo una vez más para hacerlo mejor?
+Porque tienes que ser tú,
+tienes que ser tú,
+solo tú, solo tú,
+tienes que ser tú, solo tú,
+tienes que ser tú, solo tú.
+    </pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

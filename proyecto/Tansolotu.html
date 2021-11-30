@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Tan solo tú</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Sweet California</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Tan solo tú</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Tansolotu.jpg" class="album" title="Tan solo tú"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Tansolotu.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Que alguien pare el tiempo en este instante
+Prométeme, que esta vez es verdad
+Que no vas a mirar hacia otra parte
+Que yo no sé si podré soportar
+
+Tan sólo tu
+Capaz de hundir mi mundo con una palabra
+Tan sólo tu
+Capaz de hacérmela olvidar
+
+No te alejes esta vez
+No juegues a intentarlo
+Si no hay distancia entre los dos
+No hay nada que haga daño
+¿Cuándo fue el momento en que sentiste
+Que lo nuestro no era suficiente?
+Toma nuestra historia
+Escribe de nuevo el final
+
+Dicen que la noche es más oscura
+Cuando nacen los rayos de sol
+Se nos hizo tarde y no nos dimos cuenta
+Y el silencio se hizo con la habitación
+
+Tan sólo tu
+Capaz de hundir mi mundo con una palabra
+Tan sólo tu
+Capaz de hacérmela olvidar
+
+No te alejes esta vez
+No juegues a intentarlo
+Si no hay distancia entre los dos
+No hay nada que haga daño
+¿Cuándo fue el momento en que sentiste
+Que lo nuestro no era suficiente?
+Toma nuestra historia
+Escribe de nuevo el final
+
+Sobran las palabras si se quiere amar
+Quedan los recuerdos en algún lugar
+Somos un mensaje que no entiende nadie
+Nadie entenderá
+
+No te alejes esta vez
+No juegues a intentarlo
+Si no hay distancia entre los dos
+No hay nada que haga daño
+¿Cuándo fue el momento en que sentiste
+Que lo nuestro no era suficiente?
+Toma nuestra historia
+Escribe de nuevo el final
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

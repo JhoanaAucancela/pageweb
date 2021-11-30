@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Rosas</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>La Oreja de Van Gogh</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center></header><br/>
+<center><h2>Rosas</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Rosas.jpg" class="album" title="Rosas"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Rosas.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+En un dia de estos en que suelo pensar
+Hoy va a ser el dia menos pensado
+Nos hemos cruzado
+Has decidido mirar a los ojitos azules que ahora van a tu lado
+Desde el momento en el que te conoci
+Presumiendo con prisas,tiempo de silencio
+Te juro que a nadie le he vuelto a decir
+Que tenemos el record del mundo en querernos
+
+Por eso esperaba,con la carita empapada que llegaras con rosas
+(Si,mil rosas para mi)
+Por que ya sabes que me encantan esas cosas
+Que no importa si es muy tonto soy asi
+Y aun me parece mentira que se escape mi vida
+Imaginando que vuelves a pasarte por aqui
+Donde los viernes cada tarde como siempre la esperanza dice
+Quieta y quiza si
+
+Escapando una noche un bostezo del sol
+Me pediste que te diera un beso
+Con lo baratos que salen amor
+Que te cuesta callarme con uno de esos?
+Pasaron seis meses y me dijiste adios
+Fue un placer coincidir en esta vida
+Ahi me quede con la mano en el corazon
+Y en la otra excusas que ni tu entendias
+
+Por eso esperaba,con la carita empapada que llegaras con rosas
+(Si,mil rosas para mi)
+Por que ya sabes que me encantan esas cosas
+Que no importa si es muy tonto soy asi
+Y aun me parece mentira que se escape mi vida
+Imaginando que vuelves a pasarte por aqui
+Donde los viernes cada tarde como siempre la esperanza dice
+Quieta y quiza si
+
+Y es que empiezo a pensar
+Que el amor verdadero es tan solo el primero
+Y que empiezo a sospechar
+Que los demas,son solo para olvidar
+
+Por eso esperaba,con la carita empapada que llegaras con rosas
+(Si,mil rosas para mi)
+Por que ya sabes que me encantan esas cosas
+Que no importa si es muy tonto soy asi
+Y aun me parece mentira que se escape mi vida
+Imaginando que vuelves a pasarte por aqui
+Donde los viernes cada tarde como siempre la esperanza dice
+Quieta y quiza si
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

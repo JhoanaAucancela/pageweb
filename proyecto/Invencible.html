@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Musica Pop - Invencible</title>
+  <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+  <link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+  <script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Vázquez Sounds</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Invencible</h2></center><br><br>
+<table class="table1">
+  <tr>
+<td><img src="imagenes/Invencible.jpg" class="album" title="Invencible"></td>
+</tr>
+<tr>
+  <td><center>
+    <audio id="Video1" >
+     <source src="music/Invencible.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+  </center></td>
+</tr>
+</table>
+<table class="table2">
+  <tr>    
+    <td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+  </tr>
+  <tr>
+       <td><center><pre>
+Pierdo el miedo
+En tus manos
+Desde ahí yo me atrevo a soñar
+Siento el aire
+Por me cuerpo
+Me acompañas con tu respirar
+Huuuuuu
+Huuuuuuu
+
+Soy invencible a tu lado
+Me llena de paz
+Poderte abrazar
+Soy invencible a tu lado
+No hay otro lugar
+Donde yo quiera estar
+
+Llenas todos
+Mis momentos
+Erez luz cuando hay oscuridad
+Hoy el tiempo
+Es perfecto
+Cada sueño en su justo lugar
+Huuuuuu
+Huuuuuuu
+
+Soy invencible a tu lado
+Me llena de paz
+Poderte abrazar
+Soy invencible a tu lado
+No hay otro lugar
+Donde yo quiera estar
+Eres el sonido de mi voz
+Cada nota que hay en mi canción
+La armonía de mi corazón
+Yo quiero
+Recorrer el mundo junto a ti
+Mil historias nuevas que escribir
+Llevarte por siempre en mi
+
+Soy invencible a tu lado
+Me llena de paz
+Poterde abrazar
+Soy invencible a tu lado
+No hay otro lugar
+Donde yo quiero estar
+       </pre></center></td>
+  </tr>
+</table></center>
+</body>
+</html>

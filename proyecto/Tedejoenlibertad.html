@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Te dejo en libertad</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Ha Ash</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Te dejo en libertad</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Tedejoenlibertad.jpg" class="album" title="Te dejo en libertad"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Tedejoenlibertad.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Siento que me desconoces
+Siento que tocarme ahora
+Te da igual, Te da igual
+Cada vez hay mas temores
+Crece como hiedra la
+Inseguridad
+
+Y me lastima ver que intentas rescatar
+Lo que un dia en el alma nos unía
+Ya no está Aunque estas
+Es momento de afrontar la realidad
+
+Tú me quieres pero yo te amo
+Y esa es la verdad
+Tu presencia aquí me está matando
+De sentirte a la mitad
+Me he cansado de intentar y no lograr
+Que te vuelva a enamorar
+Sé que no me quieres lastimar
+Pero tengo que solatarte
+Hoy te dejo en libertad
+
+No te odio no hay rencores
+Simplemente el corazón ya no esta
+Tú corazón ya no está
+Se han perdido los colores
+Ya tus manos no me tratan de buscar
+Y me lastiman ver que intentas rescatar
+Lo que un dia
+En el alma nos unía
+Ya no estas aunque estas
+Es momento de afrontar la realidad
+
+Tú me quieres pero yo te amo
+Esa es la verdad
+Tú presencia aquí me esta matando
+De sentirte a la mitad
+Me he cansado de intentar y no lograr
+Que te vuelva a enamorar
+Se que no me queires lastimar
+Pero tengo que soltarte
+
+Me hace mas daño seguir contigo
+Y ver que aun con mi calor
+Tu sigas sintiendo frio
+
+Tú me quieres pero yo te amo
+Esa es la verdad
+Tu presencia aquí me esta matando
+De sentirte a la mitad
+Me he cansado de intentar y no lograr
+Que te vuelva a enamorar
+Sé que no me quieres lastimar
+Pero tengo que soltarte
+Hoy te dejo en libertad
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

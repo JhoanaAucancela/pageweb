@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Impossible</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Fifth Harmony</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Impossible</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Impossible.jpg" class="album" title="Impossible"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Impossible.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+  <tr>    
+    <td><center><font class="title">Letra de la canci&oacute;n <br><i>(Versi&oacute;n Spanglish)</font></i></center></td>
+  </tr>
+  <tr>
+       <td><center><pre>
+I remember years ago 
+Someone told me I should take 
+Caution when it comes to love 
+I did, I did 
+
+Tu eras fuerte y yo no. 
+Mi error, mi ilusión 
+Sin cuidado me olvidé. 
+I did 
+
+Ahora ya esta hecho. 
+No hay mas que decir 
+Te marchaste, fue tan facil. 
+Has ganado. Ya puedes contarles 
+
+Tell them all I know now 
+Shout it from the roof tops 
+Write it on the sky line 
+All we had is gone now 
+
+Diles que era feliz. 
+Mi corazón roto 
+All my scars are open 
+Tell them what i hoped would be 
+Impossible, impossible 
+Impossible, impossible 
+
+And now when all is gone 
+There is nothing to say 
+And if you're done with embarrassing me 
+On your own you can go ahead tell them 
+
+Tell them all I know now 
+Shout it from the roof tops 
+Write it on the sky line 
+Tell them what I hoped would be 
+Impossible, impossible 
+Impossible, impossible 
+
+I remember years ago 
+Someone told me I should take 
+Caution when it comes to love 
+I did 
+
+Tell them all I know now 
+Shout it from the roof tops 
+Write it on the sky line 
+All we had is gone now 
+
+Tell them I was happy 
+And my heart is broken 
+All my scars are open 
+Tell them what I hoped would be 
+Impossible, impossible 
+Impossible, impossible 
+Impossible, impossible 
+Impossible, impossible
+       </pre></center></td>
+  </tr>
+</table></center>
+</body>
+</html>

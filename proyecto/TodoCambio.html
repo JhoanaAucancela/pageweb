@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Todo Cambió</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Camila</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Todo Cambió</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/TodoCambio.jpg" class="album" title="Todo Cambió"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/TodoCambio.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Todo cambió cuando te vi
+De blanco y negro al color me convertí
+Y fue tan fácil quererte tanto
+Algo que no imaginaba
+Fue entregarte mi amor con una mirada
+
+Todo tembló dentro de mí
+El universo escribió que fueras para mí
+Y fue tan fácil quererte tanto
+Algo que no imaginaba
+Fue perderme en tu amor
+Simplemente pasó, y todo tuyo ya soy
+
+Antes que pase más tiempo contigo amor
+Tengo que decir que eres el amor de mi vida
+Antes que te ame más, escucha por favor
+Déjame decir que todo te di
+Y no hay cómo explicar, pero menos dudar
+Simplemente así lo sentí, cuando te vi
+
+Me sorprendió todo de ti
+De blanco y negro al color me convertí
+Sé que no es fácil decir te amo
+Yo tampoco lo esperaba
+Pero así es el amor
+Simplemente pasó y todo tuyo ya soy
+
+Antes que pase más tiempo contigo amor
+Tengo que decir que eres el amor de mi vida
+Antes que te ame más, escucha por favor
+Déjame decir que todo te di
+Y no hay cómo explicar pero menos si tú no estás
+Simplemente así lo sentí, cuando te vi
+Todo cambió cuando te vi
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

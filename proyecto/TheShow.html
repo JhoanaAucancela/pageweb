@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - The Show</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Vázquez Sounds</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>The Show</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/TheShow.jpg" class="album" title="The Show"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/TheShow.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+I'm just a little bit caught in the middle
+Life is a maze and love is a riddle
+I don't know where to go I can't do it alone I've tried
+And I don't know why
+
+Slow it down
+Make it stop
+Or else my heart is going to pop
+'Cause it's too much
+Yeah, it's a lot
+To be something I'm not
+
+I'm a fool
+Out of love
+'Cause I just can't get enough
+
+I'm just a little bit caught in the middle
+Life is a maze and love is a riddle
+I don't know where to go I can't do it alone I've tried
+And I don't know why
+
+I am just a little girl lost in the moment
+I'm so scared but I don't show it
+I can't figure it out
+It's bringing me down I know
+I've got to let it go
+And just enjoy the show
+
+The sun is hot
+In the sky
+Just like a giant spotlight
+The people follow the signs
+And synchronize in time
+It's a joke
+Nobody knows
+They've got a ticket to that show
+Yeah
+
+Just enjoy the show
+
+I want my money back
+
+Just enjoy the show
+
+I want my money back
+
+Just enjoy the show
+</pre></center></td>
+	<td><center>
+		<pre>
+Estoy un poco atrapado en el medio
+La vida es un laberinto y el amor es un acertijo
+No sé a dónde ir No puedo hacerlo solo Lo he intentado
+Y no sé por qué
+
+Disminuir la velocidad
+Hazlo parar
+O bien mi corazón va a explotar
+Porque es demasiado
+Sí, es mucho
+Para ser algo que no soy
+
+Soy un tonto
+Fuera de amor
+Porque no puedo obtener suficiente
+
+Estoy un poco atrapado en el medio
+La vida es un laberinto y el amor es un acertijo
+No sé a dónde ir No puedo hacerlo solo Lo he intentado
+Y no sé por qué
+
+Solo soy una pequeña niña perdida en el momento
+Estoy tan asustado pero no lo demuestro
+No puedo resolverlo
+Me está derribando, lo sé
+Tengo que dejarlo ir
+Y solo disfruta el espectáculo
+
+El sol está caliente
+En el cielo
+Como un foco gigante
+La gente sigue los signos
+Y sincronizar en el tiempo
+Es una broma
+Nadie lo sabe
+Tienen un boleto para ese espectáculo
+Sí
+
+Solo disfruta el espectáculo
+
+Quiero mi dinero de vuelta
+
+Solo disfruta el espectáculo
+
+Quiero mi dinero de vuelta
+
+Solo disfruta el espectáculo 
+</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

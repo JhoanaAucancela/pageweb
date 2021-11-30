@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Solo Huele a Tristeza</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maná</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Solo Huele a Tristeza</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/SoloHueleaTristeza.jpg" class="album" title="Solo Huele a Tristeza"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/SoloHueleaTristeza.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Solo huele a tristeza
+Huele a soledad
+En mis ojos perdidos
+Solo hay humedad
+Siento un grande vacio en mi corazon
+Siento escalofrios de ansiedad
+Donde esta la otra parte de mi corazon
+Ay amor! Donde andas?
+Donde viviras? Donde, donde estas?
+
+Huele a tristeza este corazon 
+Sabe a tu ausencia..sabe a dolor
+Huele a tristeza este corazon
+Sabe a dolor
+
+Necesito de alguien
+Alguien a quien amar
+Necesito de todo
+Todo mi corazon
+Te he estado buscando
+Cielo, tierra, y mar
+Debajo de las piedras
+Y hasta en el sol
+Donde esta la otra parte de mi corazon
+Ay amor.. Donde andas?
+Dodne viviras..Donde, donde estas?
+
+Huele a tristeza este corazon
+Sabe a tu ausencia sabe a dolor
+Huele a tristeza este corazon
+Sabe a tu ausencia sabe a dolor
+Sabe a dolor
+
+Huele a tristeza este corazon
+Sabe, sabe, sabe a dolor
+Sabe, sabe, sabe a dolor
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

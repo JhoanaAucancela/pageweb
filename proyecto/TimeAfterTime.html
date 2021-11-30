@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Time After Time</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Vázquez Sounds</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Time After Time</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/TimeAfterTime.jpg" class="album" title="Time After Time"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/TimeAfterTime.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Lying in my bed I hear the clock tick,
+And think of you
+Caught up in circles
+Confusion is nothing new
+Flashback warm nights
+Almost left behind
+Suitcases of memories,
+Time after
+
+Sometimes you picture me
+I'm walking too far ahead
+You're calling to me,
+I can't hear what you've said
+Then you say go slow
+I fall behind
+The second hand unwinds
+
+If you're lost you can look and you will find me
+Time after time
+If you fall I will catch you I'll be waiting
+Time after time
+
+If you're lost you can look and you will find me
+Time after time
+If you fall I will catch you I'll be waiting
+Time after time
+
+After my picture fades
+And darkness has turned to gray
+Watching through windows
+You're wondering if I'm OK
+Secrets stolen from deep inside
+The drum beats out of time
+
+If you're lost you can look and you will find me
+Time after time
+If you fall I will catch you I'll be waiting
+Time after time
+
+You said go slow
+I fall behind
+The second hand unwinds
+
+If you're lost you can look and you will find me
+Time after time
+If you fall I will catch you I'll be waiting
+Time after time
+
+If you're lost you can look and you will find me
+Time after time
+If you fall I will catch you I'll be waiting
+Time after time
+
+Time after time
+Time after time
+Time after time  
+</pre></center></td>
+	<td><center>
+		<pre>
+Recostada en mi cama escucho el tic tac del reloj
+Y pienso en ti
+Retenido en círculos
+La confusión no es nada nuevo
+Escena en retrospectiva, noches cálidas
+Casi dejadas atrás
+Valijas de recuerdos
+Tiempo después
+
+Aveces tu me imaginas
+Estoy caminando demasiado lejos
+Tu me estás llamando
+Yo no puedo escuchar que me dijiste
+Entonces dices Ve despacio
+Yo me quedo atrás
+La segunda mano desenvuelve
+
+Si estás perdido puedes buscar y me encontrarás
+Una y otra vez
+
+ 
+Si te caes te agarraré, estaré esperando
+Una y otra vez
+
+Si estás perdido puedes buscar y me encontrarás
+Una y otra vez
+Si te caes te agarraré, estaré esperando
+Una y otra vez
+
+Después de que mi figura se marchita
+Y la oscuridad se convirtió en gris
+Mirando a través de ventanas
+Tu te preguntas si yo estoy bien
+Secretos robados en lo mas profundo
+El tambor suena fuera de tiempo
+
+Si estás perdido puedes buscar y me encontrarás
+Una y otra vez
+Si te caes te agarraré, estaré esperando
+Una y otra vez
+
+Dijiste Ve despacio
+Yo me quedé atrás
+La segunda mano desenvuelve
+
+Si estás perdido puedes buscar y me encontrarás
+Una y otra vez
+Si te caes te agarraré, estaré esperando
+Una y otra vez
+
+Si estás perdido puedes buscar y me encontrarás
+Una y otra vez
+Si te caes te agarraré, estaré esperando
+Una y otra vez
+
+Una y otra vez
+Una y otra vez
+Una y otra vez  
+</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

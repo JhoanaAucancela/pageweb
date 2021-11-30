@@ -1,0 +1,211 @@
+body{
+	background:url(../imagenes/musi1.jpg);
+	color: white;	
+}
+.titulo1{
+	font-family:Kristen ITC,"Myriad Pro";
+	font-size: 40px; 
+}
+.boton {
+    font-size:18px;
+	text-decoration:none;
+	margin:0px 0px;
+    display:inline-block;
+	background:#E82A98;
+	color:#fff;
+	padding:10px 20px;
+	box-shadow:0px 5px 0px #F591CB;	
+}
+.boton:link{
+	  color:#F591CB;
+}
+.boton:hover {
+	    text-decoration:underline;
+		box-shadow:0px 5px 0px #FFFFFF;
+}
+.boton:active {
+	    box-shadow:none;
+}
+.name{
+	padding: 5px;
+	font-family:Comic Sans MS,"Myriad Pro" ;
+}
+img{
+	width: 200px;
+	height:auto; 
+	padding: 10px;
+}
+p{
+	font-family:Baskerville Old Face,"Myriad Pro" ;
+	font-size: 17px;
+}
+.text{
+	padding: 3px;
+}
+#all{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;
+}
+
+#info{
+color: #fff;
+background: url(../imagenes/EFECTOS.gif); /*#EAEDED*/
+border-radius: 5%;
+box-shadow: 5px 5px 0px #424242;
+border: 2px solid #ccc;
+padding: 0.5%;
+position:absolute;
+width: 50%;
+height:auto;
+top:50%;
+left:50%;
+margin-top:-185px;
+margin-left:-325px;
+
+} 
+.infoimg{
+	width: 30%;
+	padding: 2% 2%;
+	float: left;
+}
+.p1{
+	font-family: Bookman Old Style,"Myriad Pro" ;
+	font-size: 14px;
+}
+h2{
+	font-family:Comic Sans MS,"Myriad Pro" ;
+	color: #FFEEF7;
+}
+.img2{
+	width: 30px;
+	float:left;
+}
+.mas{
+	font-family: Comic Sans MS,"Myriad Pro" ;
+	font-size: 14px;
+	color:#F720A5;
+}
+.mas:hover{
+   text-decoration:none;
+  color: #753BA5;
+}
+.mas:active{
+   text-decoration:underline;
+   color: #fff;
+}
+#FifthHarmony{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#SweetCalifornia{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#R5{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#Maroon5{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#TheVamps{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#VazquezSounds{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#Camila{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#HaAsh{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#Reik{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#Mana{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}
+#LODVG{
+position:fixed;
+background:rgba(0,0,0,0.7);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:1;	
+visibility:hidden;	
+}

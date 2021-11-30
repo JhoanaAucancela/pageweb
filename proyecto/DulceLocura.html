@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Dulce Locura</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>La Oreja de Van Gogh</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Dulce Locura</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/DulceLocura.jpg" class="album" title="Dulce Locura"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/DulceLocura.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Vendo el inventario de recuerdos de la historia 
+más bonita que en la vida escuché
+Vendo el guión de la película más triste y 
+la más bella que en la vida pude ver
+Vendo los acordes, la brillante melodía y 
+la letra que en la vida compondré
+Vendo hasta el cartel donde se anuncia el 
+estreno del momento que en la vida viviré
+
+Entiendo que te fueras
+Y ahora pago mi condena
+Pero no me pidas
+Que quiera vivir
+
+Sin tu luna
+Sin tu sol
+Sin tu dulce locura
+Me vuelvo pequeña y menuda
+La noche te sueña y se burla
+Te intento abrazar y te esfumas
+
+Vendo una cámara gastada que captaba la 
+mirada que en la vida grabaré
+Vendo dos entradas caducadas que eran de 
+segunda fila que en la vida romperé
+Vendo dos butacas reservadas hace siglos y 
+ahora caigo que en la vida me senté
+Vendo hasta el cartel donde se anuncia el 
+estreno del momento que en la vida viviré
+
+Entiendo que te fueras
+Y ahora pago mi condena
+Pero no me pidas
+Que quiera vivir
+
+Sin tu luna
+Sin tu sol
+Sin tu dulce locura
+Me vuelvo pequeña y menuda
+La noche te sueña y se burla
+Te intento abrazar
+
+Sin tu luna
+Sin tu sol
+Sin tu dulce locura
+Llorando como un día de lluvia
+Mi alma despega y te busca
+En un viaje del que no vuelve nunca
+
+Subiré cada noche a buscar
+A tu luna en mi tejado
+El recuerdo de un abrazo
+Que aún me hace tiritar
+
+Sin tu luna
+Sin tu sol
+Sin tu dulce locura
+Me vuelvo pequeña y menuda
+La noche te sueña y se burla
+Te intento abrazar
+
+Sin tu luna
+Sin tu sol
+Sin tu dulce locura
+Llorando como un día de lluvia
+Mi alma despega y te busca
+En un viaje del que nunca volverá
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

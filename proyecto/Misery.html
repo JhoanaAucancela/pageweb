@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Misery</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionOD.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maroon 5</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Misery</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Misery.jpg" class="album" title="Misery"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Misery.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Lyrics</font></center></td>
+		<td><center><font class="title">Letra en Español</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Oh yeah
+Oh yeah
+
+So scared of breaking it
+But you won’t let it bend
+
+And I wrote two hundred letters
+I won’t ever send
+Somehow it is cut so much
+Deeper then they seem
+
+You’d rather cover up
+I’d rather let them be
+So let me be
+And I’ll set you free
+
+I am in misery
+There ain’t no other
+Who can comfort me
+Why won’t you answer me?
+
+Your silence is slowly killing me
+Girl you really got me bad
+You really got me bad
+I’m gonna get you back
+Gonna get you back
+
+Your salty skin and how
+It mixes in with mine
+The way it feels to be
+Completely intertwined
+
+It’s not that I didn’t care
+It’s that I didn’t know
+It’s not what I didn’t feel,
+It’s what I didn’t show
+So let me be
+and I’ll set you free
+
+Say your faith is shaken
+You may be mistaken
+You keep me wide awake and
+Waiting for the sun
+
+I’m desperate and confused
+So far away from you
+I’m getting here
+Don’t care where I have to go
+
+Why do you do what you do to me, yeah
+Why won’t you answer me, answer me yeah
+
+Why do you do what you do to me yeah
+Why won’t you answer me, answer me yeah
+</pre></center></td>
+	<td><center>
+		<pre>
+Oh si
+Temeroso de romperlo
+Pero tú no te doblegarás
+Escribí 200 cartas, 
+Que nunca enviare
+De alguna manera
+Esto hiere demasiado, mas 
+Profundo de lo que parece
+Preferiste ocultarlo
+Yo prefiero dejarlo ser
+Así que déjame ser
+Y te dejare libre
+Estoy en miseria
+No hay otra 
+Quien pueda consolarme
+¿Por que no me respondes?
+Tu silencio esta matándome lentamente
+Chica, realmente me tienes mal
+Realmente mal
+Te recuperare, Te recuperare
+Tu piel salada, se mezcla con la mía
+La forma es que se siente estar
+Completamente entrelazados
+Esto no es lo que me importara
+Esto no es lo que conocía
+Esto no es lo que sentía, 
+Es lo que no mostraba
+Entonces déjame ser
+Y te liberare
+Estoy en miseria, No hay otra 
+Quien pueda consolarme
+¿Por que no me respondes?
+Tu silencio esta matándome lentamente
+Chica, realmente me tienes mal, Realmente mal
+Te recuperare, Te recuperare
+Dices que tu fe esta destazada
+Podrías estar equivocada
+Me mantienes despierto, muy despierto
+Esperando por el sol
+Estoy desesperado y confuso
+Tan lejos de ti, Me iré de aquí
+No me importa a donde tenga que ir
+Porque me haces lo que me haces?
+Porque no me respondes? -respondme
+Porque me haces lo que me haces?
+Porque no me respondes? -respondeme
+No hay otra 
+Quien pueda consolarme
+¿Por que no me respondes?
+Tu silencio esta matándome lentamente
+Chica, realmente me tienes mal, Realmente mal
+Te recuperare, Te recuperare
+Chica, realmente me tienes mal
+Realmente mal
+Te recuperare, Te recuperare
+</pre>
+	</center></td>
+	</tr>
+</table></center>
+</body>
+</html>

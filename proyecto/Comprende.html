@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Musica Pop - Comprende</title>
+  <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+  <link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+  <script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Sweet California</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Comprende</h2></center><br><br>
+<table class="table1">
+  <tr>
+<td><img src="imagenes/Comprende.jpg" class="album" title="Comprende"></td>
+</tr>
+<tr>
+  <td><center>
+    <audio id="Video1" >
+     <source src="music/Comprende.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+  </center></td>
+</tr>
+</table>
+<table class="table2">
+  <tr>    
+    <td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+  </tr>
+  <tr>
+       <td><center><pre>
+¿Por qué demonios...estás en todas partes? 
+Yo entro...y tú ya estás allí 
+¿No lo...dije lo suficientemente despacio? 
+hace semanas...tú y yo habíamos roto 
+
+Tan jodidamente alejado, es mejor que desaparezcas 
+o de lo contrario voy a... 
+Esto no es lindo, es un lío de estúpidos 
+me dan ganas de... 
+
+Somos como cien clases diferentes de hechos 
+comprende, se acabó! comprende, se acabó! 
+Tu oportunidad de aprovechar esto de nuevo es ninguna 
+comprende, se acabó! comprende, se acabó! 
+Nana-nanana, nana-nanana 
+comprende, se acabó! comprende, se acabó! 
+Nana-nanana, nana-nanana 
+comprende, se acabó! comprende, se acabó! 
+
+En la pista...cuando estoy con un chico 
+estás alrededor...intentando echarme el ojo 
+¿Qué sentido tiene? Tú y yo hemos acabado 
+empuja a tu suerte...no te gustará lo que que voy a hacer 
+
+Tan j*didamente alejado, es mejor que desaparezcas 
+o de lo contrario voy a... 
+Esto no es lindo, es un lío de estúpidos 
+http://www.coveralia.com/letras-traducidas/comprende--it-s-over--sweet-california.php
+
+ 
+me dan ganas de... 
+
+Somos como cien clases diferentes de hechos 
+comprende, se acabó! comprende, se acabó! 
+Tu oportunidad de aprovechar esto de nuevo es ninguna 
+comprende, se acabó! comprende, se acabó! 
+Nana-nanana, nana-nanana 
+comprende, se acabó! comprende, se acabó! 
+Nana-nanana, nana-nanana 
+comprende, se acabó! comprende, se acabó! 
+
+No hay una segunda oportunidad 
+déjame verte caminar, verte caminar 
+Escoge a alguien nuevo 
+para tu perdedor acecho, perdedor acecho 
+
+Somos como cien clases diferentes de hechos 
+comprende, se acabó! comprende, se acabó! 
+Tu oportunidad de aprovechar esto de nuevo es ninguna 
+comprende, se acabó! comprende, se acabó! [x2] 
+
+Nana-nanana, nana-nanana 
+comprende, se acabó! comprende, se acabó! 
+Nana-nanana, nana-nanana 
+comprende, se acabó! comprende, se acabó!
+       </pre></center></td>
+  </tr>
+</table></center>
+</body>
+</html>

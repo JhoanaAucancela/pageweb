@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Perdón, perdón</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Ha Ash</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Perdón, perdón</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Perdonperdon.jpg" class="album" title="Perdón, perdón"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Perdonperdon.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Perdóname por ver colores en un cielo gris
+Por convercerme que a tu lado iba a ser feliz
+Perdóname por entregarme a ti
+
+Te imaginé sincero cuando no era así
+Y si tenías ojos eran para mí
+Discúlpame pero que tonta fui
+
+Te idealicé a mi lado en mis noches y días
+Y me aferré a la idea que
+Tú eras el amor de mi vida
+
+Hoy te pido perdón, perdón, perdón
+Por haberte confiando sin dudar mi corazón
+Entregar mi alma a tus brazos
+Por confiar mi cuerpo en tus manos
+
+Perdón, perdón, perdón
+Por crearme esta falsa historia de amor
+Y te pido perdón
+Por haber esperado demasiado
+De un perdedor
+
+Me dabas señales pero no las veía
+Creía que un día de pronto tú cambiarías
+No puede ser, que estúpida me vi
+Te idealicé a mi lado en mis noches y días
+Y me aferré a la idea que tú eras el amor de mi vida
+
+Hoy pido perdón, perdón, perdón
+Por haberte confiado sin dudar mi corazón
+Entregar mi alma a tus brazos
+Por confiar mi cuerpo en tus manos
+Perdón, perdón, perdón
+Por crearme esta falsa historia de amor
+Y te pido perdón, perdón
+
+Hoy pido perdón, perdón, perdón
+Por haberte confiado sin dudar mi corazón
+Entregar mi alma a tus brazos
+Por confiar mi cuerpo en tus manos
+Perdón, perdón, perdón
+Por crearme esta falsa historia de amor
+Y te pido perdón
+
+Por haber esperado demasiado
+De un perdedor
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Perdon</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Camila</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Perdón</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Perdon.jpg" class="album" title="Perdón"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Perdon.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Prometí quererte para siempre
+Y era cierto no había dudas en mi mente
+Si el destino tuvo planes diferentes
+Y te herí por accidente, perdón
+Si me solté de ti, si no te defendí
+Fue que mi corazón estaba ciego
+Qué estupidez perderte para verlo
+Lo siento
+
+No espero amor ni odio
+Ya tengo bastante con mi dolor
+Maldigo el episodio
+Lo peor es que yo fui quién lo escribió
+Me esperan los demonios
+Que deja tu olvido que juegan conmigo
+Ya sé que es cobarde pedirte en una canción
+Perdón, perdón
+
+Si pudiera regresas el tiempo
+Esta vez no escondería lo que siento
+El silencio fue el engaño más violento
+Mi terrible experimento falló
+Si te alejé de mi, si te fallé y me fui
+Fue porque mis mentiras me daban miedo
+Tú me creíste y yo me volví tan bueno
+Fingiendo
+
+No espero amor ni odio
+Ya tengo bastante con mi dolor
+Maldigo el episodio
+Lo peor es que yo fui quién lo escribió
+Me esperan los demonios
+Que deja tu olvido que juegan conmigo
+Ya sé que es cobarde pedirte en una canción
+Perdón, perdón
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

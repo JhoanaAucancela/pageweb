@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Aléjate De Mí</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Camila</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Aléjate De Mí</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/AlejateDeMi.jpg" class="album" title="Aléjate De Mí"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/AlejateDeMi.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Aléjate de mi y hazlo pronto antes de que te mienta,
+Tu cielo se hace gris, yo ya camino bajo la tormenta
+Aléjate de mi, escapa,vete, ya no debo verte,
+Entiende que aunque pida que te vayas, no quiero perderte.
+
+La luz ya no alcanza,
+No quieras caminar sobre el dolor, descalza
+Un ángel te cuida,
+Y puso en mi boca la verdad para mostrarte la salida
+
+Y aléjate de mi amor!
+Yo sé que aun estas a tiempo
+No soy quien en verdad parezco y perdón no soy quien crees
+Yo no caí del cielo
+
+Si aun no me lo crees amor!
+Y quieres tu correr el riesgo
+Verás que soy realmente bueno en engañar y hacer sufrir
+A quién mas quiero
+Aléjate de mi pues tu bien sabes que no te merezco
+Quisiera arrepentirme, ser el mismo y no decirte esto,
+
+Alejate de mi, escapa, vete, ya no debo verte
+Entiende que aunque pida que te vayas no quiero perderte
+La luz ya no alcanza,
+No quieras caminar sobre el dolor, descalza
+Un ángel te cuida,
+Y puso en mi boca la verdad para mostrarte la salida
+
+Y aléjate de mi amor!
+Yo sé que aun estas a tiempo
+No soy quien en verdad parezco y perdón no soy quien crees
+Yo no caí del cielo
+
+Si aun no me lo crees amor!
+Y quieres tu correr el riesgo
+Verás que soy realmente bueno
+En engañar y hacer sufrir y hacer llorar
+A quién mas quiero
+
+Y aléjate de mi amor!
+Yo sé que aun estas a tiempo
+No soy quien de verdad parezco y perdón no soy quien crees
+Yo no caí del cielo
+
+Si aun no me lo crees amor,
+Y quieres tu correr el riesgo
+Verás que soy realmente bueno en engañar y hacer sufrir
+A quién mas quiero, a quién mas quiero
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

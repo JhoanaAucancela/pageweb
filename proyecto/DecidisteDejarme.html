@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Decidiste Dejarme</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Camila</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Decidiste Dejarme</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/DecidisteDejarme.jpg" class="album" title="Decidiste Dejarme"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/DecidisteDejarme.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Me envenenaste el silencio
+Se fue mi aire detrás de ti
+Me arrebataste hasta el suelo
+Me tiraste y me rompí
+
+Y fue una bomba de tiempo
+Todo el dolor que dejaste aquí
+Pero después del incendio
+De nuevo quieres derrumbar
+Lo que quedo de mi
+
+Tu decidiste dejarme
+Tu disparaste primero
+Ni se te ocurra acercarte
+No te perdono ni quiero
+Nada mas de ti y aunque tu recuerdo arde
+No voy a caer otra vez llegaste tarde
+
+Y no es cuestión de egoísmo
+No fue tan fácil dejarte ir
+Quieres que juegue a lo mismo
+Correr detrás de ti
+
+Te quise y no me arrepiento
+Porque me llevo lo que aprendí
+Aveces ganas perdiendo
+Y no hay manera de fallar
+Si das como te di
+
+Tu decidiste dejarme
+Tu disparaste primero
+Ni se te ocurra acercarte
+No te perdono ni quiero
+Nada mas de ti y aunque tu recuerdo arde
+No voy a caer otra vez llegaste tarde
+
+Al final la vida pone a cada quien en su lugar
+Eso es lo que pasa cuando tratas de tocar el fuego
+
+Tu decidiste dejarme
+Tu disparaste primero
+Ni se te ocurra acercarte
+No te perdono ni quiero
+Nada mas de ti y aunque tu recuerdo arde
+No voy a caer otra vez llegaste tarde
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

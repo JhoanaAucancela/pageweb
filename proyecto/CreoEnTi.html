@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Creo En Ti</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Reik</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Creo En Ti</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/CreoEnTi.jpg" class="album" title="Creo En Ti"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/CreoEnTi.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Ya no importa cada noche que esperé
+Cada calle o laberinto que crucé
+Porque el cielo ha conspirado a mi favor
+Y a un segundo de rendirme te encontré
+
+Piel con piel
+El corazón se me desarma
+Me haces bien
+Enciendes luces en mi alma
+
+Creo en ti
+Y en este amor
+Que me ha vuelto indestructible
+Que detuvo mi caída libre
+Creo en ti
+Y mi dolor
+Se quedo kilómetros atrás
+Mis fantasmas hoy por fin están en paz
+
+El pasado es un mal sueño que acabó
+Un incendio que en tus brazos se apagó
+Cuando estaba a medio paso de caer
+Mis silencios se encontraron con tu voz
+Te seguí y reescribiste mi futuro
+Es aquí mi único lugar seguro
+
+Creo en ti
+Y en este amor
+Que me ha vuelto indestructible
+Que detuvo mi caída libre
+Creo en ti
+Y mi dolor se quedo kilómetros atrás
+Mis fantasmas hoy por fin están en paz
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

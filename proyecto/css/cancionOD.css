@@ -1,0 +1,67 @@
+body{
+	background:url(../imagenes/musi1.jpg);
+	color: white;	
+}
+.titulo1{
+	font-family:Kristen ITC,"Myriad Pro";
+	font-size: 40px; 
+}
+.boton {
+    font-size:18px;
+	text-decoration:none;
+	margin:0px 0px;
+    display:inline-block;
+	background:#E82A98;
+	color:#fff;
+	padding:10px 20px;
+	box-shadow:0px 5px 0px #F591CB;	
+}
+.boton:link{
+	  color:#F591CB;
+}
+.boton:hover {
+	    text-decoration:underline;
+		box-shadow:0px 5px 0px #FFFFFF;
+}
+.boton:active {
+	    box-shadow:none;
+}
+h2{
+	font-family: Comic Sans MS,"Myriad Pro";
+}
+.title{
+	font-family: Comic Sans MS,"Myriad Pro";
+	color: #F72299;
+}
+.table1{
+	width: 24%;
+	float:left;
+}
+.table2{
+	width: 70%;
+	height: auto;
+}
+
+.album{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-left: 5%;
+    padding: 2%;
+}
+audio{
+	margin-left: 7%;
+}
+pre{
+	font-family: Comic Sans MS,"Myriad Pro";
+}
+.repro{
+	width: 35px;
+	display: block;
+	background: #fff;
+	border-radius: 50% ;
+	display: inline-block;
+}
+
+
+

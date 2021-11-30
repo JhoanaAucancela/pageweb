@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - El Verdadero Amor Perdona</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Maná</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>El Verdadero Amor Perdona</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/ElVerdaderoAmorPerdona.jpg" class="album" title="El Verdadero Amor Perdona"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/ElVerdaderoAmorPerdona.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Tienes todos los espacios
+Inundados de tu ausencia
+Inundados de silencio
+No hay palabras no hay perdón
+
+Tú me tienes olvidado
+No respondes al llamado
+No eches tierra a la palabra
+Me condenas a la nada
+No me entierres sin perdón
+
+Mira corazón que es el engaño
+Se revierte y hace daño
+Se revienta en el aire
+Como pompas de jabón
+Cómo pude haberte yo herido
+Engañarte y ofendido
+Alma gemela no te olvido
+Aunque me arranque el corazón
+
+Ay el rencor que nos envenena
+Nos hace daño
+Aunque no regreses corazón
+Haz de perdonarme
+
+El verdadero amor perdona
+No abandona
+No se quiebra no aprisiona
+No revienta como pompas de jabón
+
+Un error es algo humano
+No justifico la traición
+Los amantes verdaderos
+Se comprenden se aman y se
+Olvidan del rencor
+
+La noche empieza a amotinarse
+De sueños rotos y el dolor
+Y me revuelco en la cama
+Aferrándome a la nada
+Implorando tu perdón
+
+Mira corazón cuánto te extraño
+Pasan días pasan años
+Y mi vida se revienta
+Como pompas de jabón
+Cómo pude haberte yo herido
+Engañarte y ofendido
+Alma gemela no te olvido
+Aunque me arranque el corazón
+
+Ay el rencor que nos envenena
+Nos hace daño
+Aunque no regreses corazón
+Haz de perdonarme
+
+El verdadero amor perdona
+No abandona
+No se quiebra no aprisiona
+No revienta como pompas de jabón
+
+Un verdadero amor perdona
+Un verdadero amor perdona
+Si el amor es verdadero
+No se quiebra no abandona
+Si el amor es verdadero
+No se quiebra no abandona
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Inmortal</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>La Oreja de Van Gogh</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Inmortal</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/Inmortal.jpg" class="album" title="Inmortal"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/Inmortal.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Tengo aquí bajo el vestido bien escondiditos tus besos malditos
+Mariposas que al alba de regreso a casa se venían conmigo
+Yo tengo aquí bajo la cama cada madrugada que la deshicimos
+Tengo tantas cosas y ninguna esta en su sitio.
+
+Tengo aquí dentro de un vaso la primera ola de aquella mañana
+Tengo en uno de mis rizos el ritmo del tango que siempre bailabas
+Yo tengo escrito en un suspiro aquellas palabras que nunca dijimos
+Tengo tantas cosas y ninguna esta en su sitio.
+
+Después de ti entendí, que el tiempo no hace amigos
+Que cortó fue al amor y que largo el olvido.
+
+Seré tu luz, seré un disfraz, una farola que se encienda al pasar,
+Cualquier mariposa, la estrella polar que viene sola y muy solita se va
+Seré el sabor de un beso en el mar,
+Un viejo proverbio sobre como olvidar,
+Seré inmortal por que yo soy tu destino.
+
+Tengo aquí bajo mi almohada tu fotografía frente a Santa Clara
+Dice más que mil palabras y yo le contesto que también te amaba
+Yo tengo abierta la ventana por que así se escapa el tiempo sin verte
+Tengo tantas cosas, tengo todas en mi mente.
+Después de ti entendí, que el tiempo no hace amigos
+Que cortó fue el amor, y que largo el olvido.
+
+Seré tu luz, seré un disfraz, una farola que se encienda al pasar,
+Cualquier mariposa, la estrella polar que viene sola y muy solita se va
+Seré el sabor de un beso en el mar,
+Un viejo proverbio sobre como olvidar, seré inmortal.
+
+Seré ese lunar que adorne tu piel, una paloma cerca de donde estés
+Un golpe de suerte, el café de las tres,
+alguna mirada que te haga enloquecer
+Seré la voz que avise en el tren,
+un presentimiento de que todo irá bien,
+Seré inmortal (X3)
+Por que yo soy tu destino...
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>

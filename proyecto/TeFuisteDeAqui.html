@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musica Pop - Te Fuiste De Aquí</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="css/cancionFH.css">
+	<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          
+       } else {
+          video.pause();
+         
+       }
+    }
+
+    function restart() {
+        var video = document.getElementById("Video1");
+        video.currentTime = 0;
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script>
+</head>
+<body>
+<header>
+<font color="white" size=14 class="titulo1"><center>Reik</center></font>
+ <hr/>
+<center><a href="incio.html" class="boton">Inicio</a>
+<a href="cantantesre.html" class="boton">Iconos Del Pop</a>
+<a href="Categorias.html" class="boton">Pop Latino</a>
+<a href="Artistasp.html" class="boton">Artistas Populares</a>
+<a href="Gruposp.html" class="boton">Grupos Populares</a>
+<a href="Rankingc.html" class="boton">Ranking de Canciones</a>
+<a href="Albumes.html" class="boton">Ultimos Albums</a>
+</center>
+</header><br/>
+<center><h2>Te Fuiste De Aquí</h2></center><br><br>
+<table class="table1">
+	<tr>
+<td><img src="imagenes/TeFuisteDeAqui.jpg" class="album" title="Te Fuiste De Aquí"></td>
+</tr>
+<tr>
+	<td><center>
+		<audio id="Video1" >
+     <source src="music/TeFuisteDeAqui.mp3" type="audio/mp3" />
+     <source src="demo.ogv" type="audio/ogg" />
+</audio>
+<div id="buttonbar">
+    <a id="restart" onclick="restart();"><img src="icon/136.png" title="Reset" class="repro"></a> 
+    <a id="rew" onclick="skip(-10)"><img src="icon/138.png" title="Retroceder" class="repro"></a>
+    <a id="play" onclick="vidplay()"><img src="icon/135.png" title="Play/Pause" class="repro"></a>
+    <a id="fastFwd" onclick="skip(10)"><img src="icon/137.png" title="Adelantar" class="repro"></a>
+</div>   
+	</center></td>
+</tr>
+</table>
+<table class="table2">
+	<tr>		
+		<td><center><font class="title">Letra de la canci&oacute;n</font></center></td>
+	</tr>
+	<tr>
+       <td><center><pre>
+Te fuiste de aquí sin pensarlo
+Dijiste que no me amabas más
+Yo te suplique quédate aquí
+Yo no sé que haría sin ti
+No creo soportarlo
+
+Te fuiste de aquí y todo acabado
+Y llora mi alma en soledad
+La vida me puso junto a ti
+Nunca pude predecir
+Me﻿ convertiría en tu pasado
+
+Te fuiste de aquí encontraste otra vida
+Te fuiste de aquí enterraste la mía
+Y aunque no estés yo sigo respirando aquel amor
+Te fuiste aquí descubriste otros brazos
+Borraste mis besos, me hiciste pedazos
+Y duele ver que le entregaste a﻿ otro el corazón
+
+Te fuiste de aquí y todo es silencio
+Quedaron las huellas de nuestro amor
+Sueño que te abrazo una ves más
+Me despierto y ya no estas
+Me estoy ahogando en el vacio
+
+Te fuiste de aquí encontraste otra vida
+Te fuiste de aquí enterraste la mía
+Y aunque no estés yo sigo respirando aquel amor
+Te fuiste de aquí descubriste otros brazos
+Borraste mis besos, me hiciste pedazos
+Y duele ver que le entregaste a﻿ otro el corazón
+
+Y aún siento en el aire que me acaricia tu voz
+Me robaste la luna, el cielo y las estrellas
+Te fuiste de aquí encontraste otra vida
+Te fuiste de aquí enterraste la mía
+Y aunque no estés yo sigo respirando aquel amor
+Te fuiste de aquí descubriste otros brazos
+Borraste mis besos, me hiciste pedazos
+Y duele ver que le entregaste a﻿ otro el corazón
+Le entregaste a﻿ otro el corazón
+       </pre></center></td>
+	</tr>
+</table></center>
+</body>
+</html>
